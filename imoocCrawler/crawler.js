@@ -1,5 +1,5 @@
 /**
- * Describe: http小爬虫 爬幕课网的某个章节信息
+ * Describe: http小爬虫 爬幕课网的某个学习课程的章节信息
  * Created by ZhuYuan on 2017-04-11 00:01
  */
 
