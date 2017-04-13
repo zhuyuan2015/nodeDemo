@@ -1,0 +1,38 @@
+<!-- 
+    Describe: post请求
+    Created by ZhuYuan on 2017-03-05 17:33
+-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>post request</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:3000/doPost" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"/>
+        </div>
+        <div>
+            <label for="man">Man</label>
+            <input type="radio" id="man" name="sex" value="man"/>
+            <label for="woman">Woman</label>
+            <input type="radio" id="woman" name="sex" value="woman"/>
+        </div>
+        <div>
+            <label for="music">Music</label>
+            <input type="checkbox" id="music" name="hobby" value="music"/>
+            <label for="movie">Movie</label>
+            <input type="checkbox" id="movie" name="hobby" value="movie"/>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file" accept="image/*"/>
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+</body>
+</html>

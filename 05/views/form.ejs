@@ -1,0 +1,28 @@
+<!--session 登陆-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <style type="text/css">
+        #form{margin: 10% 30%;}
+    </style>
+</head>
+<body>
+<form id="form" method="get" action="/login">
+    <h1><%=username%></h1>
+    <div>
+        <label for="username">Name</label>
+        <input type="text" id="username" name="username"/>
+    </div>
+    <br/>
+    <div>
+        <label for="password">Name</label>
+        <input type="text" id="password" name="password"/>
+    </div>
+    <div>
+        <input type="submit" value="Submit"/>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+//
+   Created by Administrator on 2017-03-10.
+doctype html
+html
+   head
+      title Jade
+      style.
+         #box{
+            width: 100pt;
+            height: 100pt;
+            background: blue;
+         }
+   body
+      div#zero
+         ul
+            li zero
+            li one
+            li three
+      div#one
+         ul
+            li four
+      div#box.asd(name="name" title="title")
+         script(src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js")
+      script.
+         $("#box").click(function(){
+            console.log(this);
+         });
