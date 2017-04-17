@@ -11,8 +11,10 @@ function l(n) {
 
 var express = require("express");
 var path = require("path");
+var mongoose = require("mongoose");
 var app = express();
 var port = process.env.PORT || 3000;
+mongoose.connect("mongodb://localhose/movie");
 
 app.set("views","./views/pages");
 app.set("view engine","jade");
