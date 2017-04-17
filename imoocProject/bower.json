@@ -1,0 +1,17 @@
+{
+  "name": "imoocProject",
+  "homepage": "https://github.com/zhuyuan2015/nodeDemo",
+  "authors": [
+    "Work Compter <765596409@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
